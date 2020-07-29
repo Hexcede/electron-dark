@@ -1,0 +1,25 @@
+:root {
+	--background-color: white;
+	--foreground-color: black;
+
+	--font-family: "Roboto", "Lucida Console", monospace;
+	--border-radius: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color: #2E2F33;
+		--foreground-color: white;
+	}
+}
+
+body {
+	padding-left: 0.65em;
+	background: var(--background-color);
+	color: var(--foreground-color);
+	font-family: var(--font-family);
+}
+
+div {
+	border-radius: var(--border-radius);
+}
