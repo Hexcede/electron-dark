@@ -83,7 +83,7 @@ select,
 input,
 textarea,
 button {
-  width: 100%;
+  /*width: 100%;*/
   line-height: 1.5;
   padding: 15px 10px;
   border: 1px solid var(--borderFormEls);
