@@ -63,7 +63,7 @@ ul {
 
 body {
   font: 18px/1.5 "Open Sans", sans-serif;
-  background: var(--bodyColor);
+  background-color: var(--bodyColor);
   color: var(--white);
   margin: 1.5rem 0;
 }
@@ -147,7 +147,7 @@ button {
 
 button > * {
   display: inline-block;
-  width: 100%;
+  /*width: 100%;*/
   transition: transform 0.4s ease-in-out;
 }
 
