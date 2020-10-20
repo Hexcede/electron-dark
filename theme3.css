@@ -1,4 +1,4 @@
-// https://webdesign.tutsplus.com/tutorials/create-a-stylish-dark-contact-form-with-html-css-and-javascript--cms-33201
+/* https://webdesign.tutsplus.com/tutorials/create-a-stylish-dark-contact-form-with-html-css-and-javascript--cms-33201*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 
 /* RESET RULES
@@ -29,6 +29,7 @@ textarea,
 button {
   font-family: inherit;
   font-size: 100%;
+  margin: 1rem;
 }
 
 button,
@@ -84,7 +85,7 @@ input,
 textarea,
 button {
   /*width: 100%;*/
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   padding: 15px 10px;
   border: 1px solid var(--borderFormEls);
   color: var(--white);
